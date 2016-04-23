@@ -16,7 +16,7 @@ public class main implements CommandExecutor{
 
 	public static void main(String[] args) {
 		
-		DiscordAPI api = Javacord.getApi("MTcxNjgyNTk1NDIyMDc2OTI4.Cfvh4A.lROVRdP-G2gr5rqGyLKwreSbTBQ", true);
+		DiscordAPI api = Javacord.getApi("********************************************************", true);
 		CommandHandler handler = new JavacordHandler(api);
 		handler.registerCommand(new Commands());
 		handler.registerCommand(new HelpCommand(handler));
